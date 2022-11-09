@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    background-color: #208bbf;
+    padding: 20px 0;
+}
+.container{
+    padding: 0 8rem;
+}
+.header-all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 15%;
+}
+.logo img{
+    width: 100%;
+}
+nav{
+    width: 70%;
+    text-align: center;
+}
+nav a{
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 30px 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.app a{
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 16px 35px;
+    font-size: 15px;
+    color: #252525;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+
+    
+}
+.slider-img{
+    width: 100%;
+    background-position: center;
+
+}
+.slider-img img{
+    width: 100%;
+}
+#sanitize{
+    padding: 7rem 0;
+}
+.snt-subtitle{
+    font-size: 160px;
+    color: #f7f7f7;
+    line-height: 240px;
+    text-align: center;
+}
+.snt-title{
+    text-align: center;
+    font-size: 36px;
+    color: #222222;
+    margin-bottom: 40px;
+    margin-top: -110px;
+}
+.snt-all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.snt-all .box{
+    width: 31.5%;
+    margin-bottom: 35px;
+   
+
+}
+.snt-all .box .top{
+    background-color: #f2f2f2;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+
+}
+
+.snt-all .top img{
+    width: 100%;
+    vertical-align: bottom;
+    transition: .5s;
+    cursor: pointer;
+
+
+}
+.snt-all .top:hover img{
+    transform: scale(1.1);
+}
+
+
+.snt-all .bottom{
+    background-color: #f2f2f2;
+    padding: 25px;
+    border-radius:0 0 10px 10px;
+
+}
+.snt-all .bottom a{
+    color: #111;
+    font-size: 22px;
+}
+
+.bottom-b{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.stars i{
+    color: #8c8c8c;
+    font-size: 14px;
+}
+.explore{
+    text-align: center;
+    margin: 20px 0;
+}
+.explore a{
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 35px;
+    font-size: 14px;
+    letter-spacing: .5px;
+    font-weight: 600;
+    background-color: rgb(0, 107, 166);
+    font-family: sans-serif;
+}
+#quality{
+    padding: 7rem 0;
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Clinika-Gel_banner.jpg?id=22244);
+    background-position: center;
+    background-size: cover;
+}
+.quality-all{
+    width: 55%;
+    text-align: center;
+    margin-top: 5rem;
+
+}
+
+.quality-text h2{
+    color: #ffffff;
+    font-size: 36px;
+    
+}
+.quality-text p{
+    color: #ffffff;
+    font-size: 15px;
+    margin: 35px 0;
+    
+}
+.quality-btn{
+    margin: 10px 0;
+}
+.quality-btn a{
+    color: #ffffff;
+    color: rgb(0, 107, 166);
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 15px 30px;
+    display: inline-block;
+
+    
+}
+#newsletter{
+    padding: 7rem 0;
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/subscribe-bg.jpg?id=22100);
+    background-position: center;
+    background-size: cover;
+}
+.subs-items{
+    padding: 0 19rem;
+    text-align: center;
+}
+
+.subs-items p img{
+    width: 95%;
+}
+.subs-text{
+    color: #ffffff;
+}
+.subs-text h2{
+    font-size: 36px;
+    color: #ffffff;
+    margin-top: -35px;
+    margin-bottom: 10px;
+    
+
+}
+.subs-text p{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 28px;
+
+}
+.subs-form{
+    position: relative;
+}
+.subs-form button{
+    border: 1px solid transparent;
+    background: #898989;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    right: 7px;
+    padding: 18px 40px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 16px;
+    transition: .4s;
+    cursor: pointer;
+}
+.subs-form button:hover{
+    background-color: #4DB0E0;
+}
+
+.subs-form input{
+    border-radius: 35px;
+    height: 70px;
+    font-size: 15px;
+    border: 0 none;
+    
+    padding: 25px;
+    width: 100%;
+    font-weight: 400;
+    outline: 0;
+}
+#partners{
+    padding: 7rem 0;
+}
+.all-partners{
+    padding: 0rem 19rem;
+}
+.top-ptn{
+    text-align: center;
+}
+.top-ptn h2{
+    font-size: 36px;
+    color: #222222;
+    margin-top: -35px;
+}
+.ptn-subtitle img{
+    width: 90%;
+}
+.ptn-title{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 28px;
+    color: #777777;
+}
+.bottom-ptn img{
+    max-height: 55px;
+    width: auto;
+    margin: 0 15px;
+    display: inline-block;
+    opacity: .3;
+    vertical-align: middle;
+    cursor: pointer;
+    filter: grayscale(1);
+}
+.bottom-ptn img:hover{
+    opacity: 1;
+}
+.wavy{
+    padding-top: 95px ;
+    padding-bottom: 20px ;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover; 
+}
+#benefits{
+    padding: 7rem 0;
+}
+.checkup{
+    width: 50%;
+  
+}
+.bnf-flex{
+    display: flex;
+}
+.top-bnf h2{
+    margin-top: -25px;
+    font-size: 36px;
+    color: #3d404f;
+    line-height: 46px;
+    text-align: left;
+
+}
+.top-bnf p img{
+    opacity: .5;
+}
+.bnfs{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.bnf-box{
+    width: 50%;
+    padding-bottom: 40px;
+
+}
+.bnf-box img{
+    width: 60px;
+    vertical-align: middle;
+}
+.bnf-box h3{
+    margin: 12px 0px 10px;
+    font-size: 24px;
+    color: #434959;
+}
+.bnf-box p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #777797;
+    margin: 0 0 10px;
+}
+.benefit-img{
+    width: 50%;
+}
+.benefit-img p img{
+    width: 100%;
+
+}
+
